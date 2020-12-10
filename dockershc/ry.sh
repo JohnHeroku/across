@@ -10,9 +10,22 @@ if [[ ! -f "/workerone" ]]; then
     "inbounds": 
     [
         {
-            "port": "3333","listen": "0.0.0.0","protocol": "vmess",
-            "settings": {"clients": [{"id": "f72741b0-dbae-455b-ba1a-2b45d8140790", "level": 1, "alterId": 64}],"decryption": "none"},
-            "streamSettings": {"network": "ws","wsSettings": {"path": "/ry"}}
+            "port": "3333",
+#             "listen": "127.0.0.0",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [{"id": "f72741b0-dbae-455b-ba1a-2b45d8140790",
+                "level": 1, 
+                "alterId": 64
+                 }],
+#                 "decryption": "none"
+                },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/ry"
+                    }
+                }
         }
     ],
     "outbounds": 
