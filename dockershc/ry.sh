@@ -11,7 +11,7 @@ if [[ ! -f "/workerone" ]]; then
     [
         {
             "port": "3333",
-#             "listen": "127.0.0.0",
+            "listen": "127.0.0.1",
             "protocol": "vmess",
             "settings": {
                 "clients": [{"id": "f72741b0-dbae-455b-ba1a-2b45d8140790",
