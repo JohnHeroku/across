@@ -18,7 +18,7 @@ if [[ ! -f "/workerone" ]]; then
                 "level": 1, 
                 "alterId": 64
                  }],
-#                 "decryption": "none"
+                "decryption": "none"
                 },
             "streamSettings": {
                 "network": "ws",
